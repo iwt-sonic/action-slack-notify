@@ -3,7 +3,7 @@ description: 'This action will send a notification to Slack'
 author: 'rtCamp'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://ghcr.io/iwt-sonic/action-slack-notify:release'
 branding:
   icon: 'bell'
   color: 'yellow'
